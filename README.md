@@ -10,5 +10,5 @@
 - Serve at location : http://127.0.0.1:8000
 
 ## Credentials
-Username: admin@gmail.com
-Password: Bangla71
+- Username: admin@gmail.com
+- Password: Bangla71
