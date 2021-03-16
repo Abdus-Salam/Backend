@@ -1,0 +1,92 @@
+﻿Migration Tables ( use notation)
+----------------------------------------------------
+    • groups
+        ◦ id
+        ◦ name
+        ◦ admin-id
+        ◦ user_ids
+        ◦ visibility_modifier
+        ◦ rules
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at 
+    • Posts
+        ◦ id
+        ◦ kernel
+        ◦ photos
+        ◦ visibility_modifier             
+        ◦ like_count
+        ◦ comment_count
+        ◦ share_count
+        ◦ group_id
+        ◦ group_visibility
+        ◦ group_name
+        ◦ user_id
+        ◦ datetime
+        ◦ is_deleted
+        ◦ created_at
+        ◦ updated_at
+    • likes
+        ◦ id
+        ◦ kernel_id
+        ◦ user_id
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at
+    • comments
+        ◦ id
+        ◦ comments
+        ◦ kernel_id
+        ◦ user_id
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at
+    • replies
+        ◦ id
+        ◦ kernel_id
+        ◦ comment_id
+        ◦ commenter : comment user name
+        ◦ user_id  : reply id
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at
+    • shares
+        ◦ id
+        ◦ kernel_id
+        ◦ social_media_name
+        ◦ user_id
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at
+    • Save_Items
+        ◦ id
+        ◦ name
+        ◦ visibility_modifier
+        ◦ user_id
+        ◦ status => 0: active, 1 : inactive, 2: delete, 3: block
+        ◦ datetime
+        ◦ created_at
+        ◦ updated_at
+    • Users
+        ◦ id
+        ◦ first_name
+        ◦ last_name
+        ◦ email_address_or_phone_number
+        ◦ password
+        ◦ otp
+        ◦ gender
+        ◦ date_of_birth
+        ◦ quotes
+        ◦ status
+        ◦ created_at
+        ◦ updated_at
+
+
+
+
+
+
+ড    
+
+
+1 
