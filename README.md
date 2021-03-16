@@ -7,3 +7,7 @@
 - $ php artisan jwt:generate
 - $ php artisan migrate
 - $ php artisan serve
+
+## Credentials
+Username: admin@gmail.com
+Password: Bangla71
